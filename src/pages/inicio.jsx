@@ -11,6 +11,9 @@ import {
 } from "../styles/inicio";
 import IconPhone from "../assets/icons/iconPhone";
 import IconGmail from "../assets/icons/iconGmail";
+/* import Sections from "../components/inicio/sectioninicio";
+import Section from "../components/inicio/section"; */
+
 const Inicio = () => {
   return (
     <BodyIni>
@@ -38,6 +41,8 @@ const Inicio = () => {
           </div>
         </div>
       </DivCard>
+{/*       <Sections />
+      <Section /> */}
     </BodyIni>
   );
 };

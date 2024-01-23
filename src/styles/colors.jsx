@@ -4,6 +4,10 @@ export const Colors = {
   primary300: "#736445ff",
   primary400: "#000102ff",
   primary500: "#A28E73ff",
+  primary600: "#4f411d",
+  primary700: "#937220",
+
+
   gray: "#e9ecef",
   gray100: "#dee2e6",
   gray200: "#ced4da",

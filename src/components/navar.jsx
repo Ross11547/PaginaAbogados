@@ -6,6 +6,7 @@ import { DivOpcion } from "../styles/nav";
 import { ImgLog, Divimage, DivOutlet } from "../styles/nav";
 import Logo from "../assets/img/LogoRecortado.png";
 import Footer from "./footer";
+
 const Navbar = () => {
   return (
     <>

@@ -4,8 +4,9 @@ import { Colors } from "./colors";
 import Fondo from "../assets/img/FondoInicio.png";
 
 export const BodyIni = styled.div`
-  background-image: url(${Fondo});
-  background-size: cover;
+/*   background-image: url(${Fondo});
+  background-size: cover; */
+  background: ${Colors.primary400};
   width: 100%;
   height: calc(100vh - 75px);
   display: flex;
@@ -25,9 +26,10 @@ export const DivCard = styled.div`
     background: rgba(255, 255, 255, 0);
     border-radius: 10px 0px 0px 0px;
     padding: 20px;
+    color: ${Colors.primary200};
     backdrop-filter: blur(7px);
-    border: 2px solid rgba(249, 249, 249, 0.149);
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), 0 0 25px rgba(0, 0, 0, 0.1),
+    border: 2px solid rgba(249, 249, 249, 0.086);
+    box-shadow: 0 0 25px rgba(124, 116, 116, 0.397), 0 0 25px rgba(0, 0, 0, 0.1),
       0 0 25px rgba(0, 0, 0, 0.1);
     & > p {
       height: 50%;
@@ -59,20 +61,13 @@ export const Ini = styled.div`
   justify-content: center;
 `;
 
-export const InicImg = styled.img`
-  height: 417px;
-  margin: 2% 4%;
-  border-radius: 10px;
-  border: solid 1px ${Colors.gray200};
-`;
-
 export const Texto1 = styled.h3`
   width: 33vw;
   height: 10vh;
   display: flex;
   align-items: center;
   margin: 0 7.3%;
-  color: ${Colors.gray200};
+  color: ${Colors.primary200};
   font-size: 20px;
 `;
 
@@ -82,7 +77,7 @@ export const Texto2 = styled.h1`
   display: flex;
   align-items: center;
   margin: 0 7.3%;
-  color: ${Colors.primary100};
+  color: ${Colors.primary700};
   font-size: 80px;
   line-height: 80px;
   letter-spacing: -6.5px;
@@ -94,7 +89,7 @@ export const Parrafo1 = styled.p`
   display: flex;
   align-items: center;
   margin: 0 7.3%;
-  color: ${Colors.gray200};
+  color: ${Colors.primary200};
   font-size: 16px;
   line-height: 30px;
 `;
@@ -104,7 +99,7 @@ export const Boton1 = styled.button`
   height: 6vh;
   margin: -1% 7.3%;
   border-radius: 10px;
-  background: ${Colors.primary100};
+  background: ${Colors.primary700};
   border-color: transparent;
   cursor: pointer;
 `;
@@ -112,6 +107,6 @@ export const Boton1 = styled.button`
 export const Links = styled(Link)`
   color: ${Colors.primary200};
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
   text-decoration: none;
 `;
